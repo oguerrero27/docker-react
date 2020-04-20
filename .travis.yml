@@ -6,5 +6,5 @@ before_install:
   - docker build -t dindevalhalla/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run dindevalhalla/docker-react npm run test -- --coverage
+  - docker run -e CI=true dindevalhalla/docker-react npm run test -- --coverage
 
