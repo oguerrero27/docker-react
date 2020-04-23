@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Changed 11 times there! Edit <code>src/App.js</code> and save to reload.
+          Changed from lower branch! Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
